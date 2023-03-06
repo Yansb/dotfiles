@@ -3,8 +3,8 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH=$PATH:/usr/local/go/bin
-export PATH="$PATH:$(go env GOPATH)/bin"
+# export PATH=$PATH:/usr/local/go/bin
+# export PATH="$PATH:$(go env GOPATH)/bin"
 
 
 # Set name of the theme to load --- if set to "random", it will
@@ -121,7 +121,6 @@ SPACESHIP_PROMPT_ORDER=(
   hg            # Mercurial section (hg_branch  + hg_status)
   exec_time     # Execution time
   line_sep      # Line break
-  vi_mode       # Vi-mode indicator
   jobs          # Background jobs indicator
   exit_code     # Exit code section
   char          # Prompt character
